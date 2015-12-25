@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="vertical" >
+    <custview.MyImageView
+        android:id="@+id/tuiguang_tt"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bbs_category_defaultbrand" />
+    
+     <custview.MyImageView
+        android:id="@+id/tuiguang"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/wenzhangguanggaotuiguang"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fl_kache"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_1" />
+
+    <RadioGroup
+        android:id="@+id/rg_1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F2F0F0"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:padding="7dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F2F0F0"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/zixun_slc"
+            android:textColor="@color/text_color"
+            android:textSize="12dp"
+            android:text="咨询" />
+
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:padding="7dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F2F0F0"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/bbs_slc"
+            android:textColor="@color/text_color"
+             android:textSize="12dp"
+            android:text="论坛" />
+
+        <RadioButton
+            android:id="@+id/rb_3"
+            android:padding="7dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F2F0F0"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/dis_slc"
+            android:textColor="@color/text_color"
+             android:textSize="12dp"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/rb_4"
+            android:padding="7dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F2F0F0"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/me_slc"
+            android:textColor="@color/text_color"
+             android:textSize="12dp"
+            android:text="我的" />
+    </RadioGroup>
+
+</RelativeLayout>
