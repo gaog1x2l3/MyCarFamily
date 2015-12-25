@@ -8,18 +8,23 @@ import android.widget.TextView;
 import com.example.mycar.model.ZixunEntity;
 import com.example.mycar.view.MyImageView;
 import com.example.mycar.R;
-
+/**
+ * 咨询适配器
+ * @author gao
+ *
+ */
 public class Zixun_ad1 extends MybaseAdapter<ZixunEntity> {
-
+//Map:表示type以及它所对应的布局id
 	public Zixun_ad1(Context context, Map<Integer, Integer> resMap) {
 		super(context, resMap);
 	}
-
+	//给布局中的控件赋值，
 	@Override
 	public void bindData(ViewHolder vh, ZixunEntity data) {
 		if (data.getSubType() == 0) {
+			//表示图片，标题，作者和日期的布局。
 			MyImageView iv = (MyImageView) vh.getView(R.id.zixun_img);
-			iv.setImageResource(R.drawable.friends_message_header);
+			iv.setImageResource(R.drawable.friends_message_header);//设置默认图片。
 			iv.setUrl(data.getImgSrc());
 			TextView tv = (TextView) vh.getView(R.id.zx_Title);
 			tv.setText(data.getTitle());

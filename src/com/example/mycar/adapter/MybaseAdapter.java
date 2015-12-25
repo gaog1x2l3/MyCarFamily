@@ -22,7 +22,7 @@ public abstract class MybaseAdapter<T> extends BaseAdapter {
 	private Context context;
 	private List<T> datas;
 	// private int[] resId;
-	private Map<Integer, Integer> resMap;// type _ R.layout.id
+	private Map<Integer, Integer> resMap;// type _ R.layout.id 存储类型和布局的键值对，可以通过类型方便找到布局，
 
 	public MybaseAdapter(Context context, Map<Integer, Integer> resMap) {
 		this.context = context;
@@ -32,6 +32,7 @@ public abstract class MybaseAdapter<T> extends BaseAdapter {
 
 	@Override
 	public int getItemViewType(int position) {
+		//通过反射得到SubType数据。
 		T t = datas.get(position);
 		Class c = t.getClass();
 		int type = 0;
@@ -96,7 +97,7 @@ public abstract class MybaseAdapter<T> extends BaseAdapter {
 		bindData(vh, datas.get(position));
 		return convertView;
 	}
-
+	//具体由子类实现
 	public abstract void bindData(ViewHolder vh, T data);
 
 	class ViewHolder {
@@ -106,7 +107,7 @@ public abstract class MybaseAdapter<T> extends BaseAdapter {
 		ViewHolder(View layoutView) {
 			this.layoutView = layoutView;
 		}
-
+		//通过id找到布局中的控件。
 		public View getView(int id) {
 			View sView = null;
 			if (map.containsKey(id)) {

@@ -15,7 +15,11 @@ import android.view.ViewGroup;
 import com.example.mycar.utils.Constants;
 import com.example.mycar.view.PagerSlidingTabStrip;
 import com.example.mycar.R;
-
+/**
+ * 咨询界面
+ * @author gao
+ *
+ */
 public class Fragment_ZiXun extends Fragment {
 	private static Fragment_ZiXun fz;
 	private PagerSlidingTabStrip mTab;
@@ -42,7 +46,10 @@ public class Fragment_ZiXun extends Fragment {
 		mTab.setViewPager(mViewPager);
 		return view;
 	}
- 
+	/**
+	 * 初始化数据方法
+	 * 将所有的Fragment创建并且添加到集合中。
+	 */
 	private void initData() {
 		list = new ArrayList<Fragment>();
 		Fragment_TuiJian ft = Fragment_TuiJian.getFragment();
@@ -60,7 +67,11 @@ public class Fragment_ZiXun extends Fragment {
 		list.add(fn5);
 		list.add(fn6);
 	}
-
+	/**
+	 * 适配器
+	 * @author gao
+	 *
+	 */
 	class FragmentAdapter extends FragmentPagerAdapter {
 		List<Fragment> viewlist;
 

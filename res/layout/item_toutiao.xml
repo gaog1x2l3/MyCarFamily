@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 
-    <custview.MyImageView
+    <com.example.mycar.view.MyImageView
         android:id="@+id/zixun_img_tt"
         android:layout_width="100dp"
         android:layout_height="75dp"

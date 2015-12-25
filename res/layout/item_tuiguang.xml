@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="75dp"
     android:orientation="vertical" >
-    <custview.MyImageView
+    <com.example.mycar.view.MyImageView
         android:id="@+id/tuiguang_tt"
         android:layout_width="match_parent"
         android:layout_height="75dp"

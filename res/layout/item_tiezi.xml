@@ -33,7 +33,7 @@
         android:text="我是大大大"
         android:textSize="13sp" />
 
-    <custview.MyImageView
+    <com.example.mycar.view.MyImageView
         android:layout_marginLeft="5dp"
         android:layout_width="35dp"
         android:layout_height="25dp"

@@ -1,5 +1,9 @@
 package com.example.mycar.model;
-
+/**
+ * 咨询实体类
+ * @author gao
+ *
+ */
 public class ZixunEntity {
 //	"AdId":"0",
 //    "Url":"47989",
@@ -59,7 +63,7 @@ public class ZixunEntity {
 	private String PublishDateTime;
 	private String SmallImg;
 	private String Type;
-	private int SubType;
+	private int SubType;//布局类型
 	public String getAdId() {
 		return AdId;
 	}

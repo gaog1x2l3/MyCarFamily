@@ -32,7 +32,11 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
-
+/**
+ * 咨询界面中的推荐部分
+ * @author gao
+ *
+ */
 public class Fragment_TuiJian extends Fragment implements OnDownComplete, OnNoHeadListener, OnRefreshListener2<ListView>, OnItemClickListener {
 	private View view;
 	private Zixun_ad1 adapter1;
