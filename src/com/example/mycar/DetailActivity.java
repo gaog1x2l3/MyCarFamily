@@ -9,7 +9,11 @@ import android.webkit.WebViewClient;
 
 import com.example.mycar.utils.Constants;
 import com.example.mycar.R;
-
+/**
+ * 详情页
+ * @author gao
+ *
+ */
 public class DetailActivity extends Activity {
 	private WebView webView;
 	private int id;

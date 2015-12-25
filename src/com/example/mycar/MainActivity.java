@@ -15,7 +15,11 @@ import com.example.mycar.fragment.Fragment_BBS;
 import com.example.mycar.fragment.Fragment_Dis;
 import com.example.mycar.fragment.Fragment_Mine;
 import com.example.mycar.fragment.Fragment_ZiXun;
-
+/**
+ * 主页
+ * @author gao
+ *
+ */
 public class MainActivity extends FragmentActivity implements
 		OnCheckedChangeListener {
 	private RadioGroup radioGroup;

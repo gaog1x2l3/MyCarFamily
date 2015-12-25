@@ -21,6 +21,11 @@ import com.example.mycar.fragment.Ad2;
 import com.example.mycar.fragment.Ad3;
 import com.example.mycar.fragment.Ad4;
 import com.example.mycar.R;
+/**
+ * 欢迎界面
+ * @author gao
+ *
+ */
 public class Welcome extends FragmentActivity {
 	private ViewPager viewPager;
 	private TextView tv;
@@ -73,18 +78,18 @@ public class Welcome extends FragmentActivity {
 			public void onPageSelected(int position) {
 				// TODO Auto-generated method stub
 				if (position == 0) {
-					ad1.Alpha();
+					Ad1.Alpha();
 				}
 				if (position == 1) {
-					ad2.Alpha();
+					Ad2.Alpha();
 				}
 				if (position == 2) {
-					ad3.Alpha();
+					Ad3.Alpha();
 				}
 				if (position == 3) {
 					tv.setText(null);
 					dot_layout.removeAllViews();
-					ad4.Alpha();
+					Ad4.Alpha();
 					flag=true;
 				}
 				if(position != 3){
@@ -135,7 +140,7 @@ public class Welcome extends FragmentActivity {
 			dot_layout.getChildAt(i).setEnabled(i==currentPage);
 		}
 	}
-	
+	//跳转到主页面。
 	public void click(View v){
 		Intent intent=new Intent(this,MainActivity.class);
 		startActivity(intent);

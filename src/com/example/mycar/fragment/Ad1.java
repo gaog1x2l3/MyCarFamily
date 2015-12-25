@@ -10,7 +10,11 @@ import android.view.animation.AnimationSet;
 import android.widget.ImageView;
 
 import com.example.mycar.R;
-
+/**
+ * 广告的第一个界面
+ * @author gao
+ *
+ */
 public class Ad1 extends Fragment {
 	private static View view;
 	private static ImageView img_1;

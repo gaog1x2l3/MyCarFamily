@@ -12,7 +12,11 @@ import android.widget.ImageView;
 
 import com.example.mycar.MainActivity;
 import com.example.mycar.R;
-
+/**
+ * 广告的第四个界面
+ * @author gao
+ *
+ */
 public class Ad4 extends Fragment{
 	private static View view;
 	private static ImageView img_1,img_2;
