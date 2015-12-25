@@ -16,10 +16,12 @@ public class DownUtil {
 			public void run() {
 				switch (type) {
 				case DownUtil.TYPE_JSON:
+					//如果是json字符串
 					obj = HttpUtil.getJSON(url);
 					break;
 
 				case DownUtil.TYPE_IMAGE:
+					//如果是图片的话
 					obj = HttpUtil.getBitmap(url);
 					break;
 				}

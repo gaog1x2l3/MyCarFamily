@@ -29,6 +29,8 @@ public class HttpUtil {
 			}
 			is.close();
 			bos.close();
+			System.out.println("下载数据得到byte数组:" + path + ":"
+					+ bos.toByteArray().length);
 			return bos.toByteArray();
 
 		} catch (MalformedURLException e) {
@@ -43,6 +45,8 @@ public class HttpUtil {
 
 	}
 
+	// 通过地址得到json字符串
+
 	public static String getJSON(String path) {
 		byte[] b = getByteByURL(path);
 		if (b != null) {
@@ -56,6 +60,7 @@ public class HttpUtil {
 		return null;
 	}
 
+	// 通过地址得到Bitmap图片对象
 	public static Bitmap getBitmap(String path) {
 		byte[] b = getByteByURL(path);
 		Bitmap bitmap = null;

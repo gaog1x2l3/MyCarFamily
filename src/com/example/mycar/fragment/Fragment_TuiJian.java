@@ -66,6 +66,7 @@ public class Fragment_TuiJian extends Fragment implements OnDownComplete, OnNoHe
 	
 	private void loadData() {
 		String url=String.format(Constants.URL.URL_TUIJIAN, page);
+		System.out.println("tuijian:loadData:"+url);
 		DownUtil.down(DownUtil.TYPE_JSON, url, this);
 	}
 	
@@ -91,13 +92,13 @@ public class Fragment_TuiJian extends Fragment implements OnDownComplete, OnNoHe
 		adapter1=new Zixun_ad1(getActivity(), map);
 		showViews.setAdapter(adapter1);
 	}
-	
+	//处理下载的数据。
 	@Override
 	public void downComplete(String url, Object obj) {
 		if(obj!=null){
 			datas=JSONUtil.getCenByJSON(obj+"");
 			if(page==1){
-			adapter1.setDatas(datas);
+				adapter1.setDatas(datas);
 			}else{
 				adapter1.addDatas(datas);
 			}

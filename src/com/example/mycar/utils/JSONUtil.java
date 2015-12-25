@@ -13,7 +13,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 public class JSONUtil {
-
+	// 解析json数据得到咨询实体对象集合。
 	public static List<ZixunEntity> getCenByJSON(String json) {
 		List<ZixunEntity> list = null;
 		if (json != null) {
@@ -27,10 +27,11 @@ public class JSONUtil {
 				e.printStackTrace();
 			}
 		}
+		System.out.println("解析到的集合数据有---ZixunEntity:"+list.size());
 		return list;
 
 	}
-
+	//解析json数据得到HeadEntity实体集合。
 	public static List<HeadEntity> getHeadNavByJSON(String json) {
 		List<HeadEntity> list = null;
 		if (json != null) {
@@ -44,6 +45,7 @@ public class JSONUtil {
 				e.printStackTrace();
 			}
 		}
+		System.out.println("解析到的集合数据有--HeadEnity:"+list.size());
 		return list;
 	}
 
@@ -60,6 +62,7 @@ public class JSONUtil {
 				e.printStackTrace();
 			}
 		}
+		System.out.println("解析到的集合数据有--TieziEnity:"+list.size());
 		return list;
 	}
 

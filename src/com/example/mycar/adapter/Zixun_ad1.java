@@ -14,7 +14,7 @@ import com.example.mycar.R;
  *
  */
 public class Zixun_ad1 extends MybaseAdapter<ZixunEntity> {
-//Map:表示type以及它所对应的布局id
+	//Map:表示type以及它所对应的布局id
 	public Zixun_ad1(Context context, Map<Integer, Integer> resMap) {
 		super(context, resMap);
 	}

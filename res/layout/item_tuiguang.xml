@@ -10,7 +10,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/bbs_category_defaultbrand" />
     
-     <custview.MyImageView
+     <com.example.mycar.view.MyImageView
         android:id="@+id/tuiguang"
         android:layout_width="50dp"
         android:layout_height="25dp"
