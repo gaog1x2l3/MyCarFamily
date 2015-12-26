@@ -11,7 +11,11 @@ import com.example.mycar.model.TieziEntity;
 import com.example.mycar.model.ZixunEntity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-
+/**
+ * json字符串解析帮助类
+ * @author gao
+ *
+ */
 public class JSONUtil {
 	// 解析json数据得到咨询实体对象集合。
 	public static List<ZixunEntity> getCenByJSON(String json) {

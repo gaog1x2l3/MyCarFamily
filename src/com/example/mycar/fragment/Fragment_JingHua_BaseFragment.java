@@ -46,7 +46,7 @@ public abstract class Fragment_JingHua_BaseFragment extends Fragment implements
 	}
 	public abstract void loadData();
 
-	private void initView() {
+	public void initView() {
 		showViews = (PullToRefreshListView) view.findViewById(R.id.zx_tuijian);
 		showViews.setMode(Mode.BOTH);
 		showViews.setOnRefreshListener(this);

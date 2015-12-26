@@ -137,10 +137,9 @@ public class MainActivity extends FragmentActivity implements
 			// 设置地图中心位置。
 		} else {
 			String city = arg0.getCity();
-
 			System.out.println("定位了city:" + city);
 			SharePrefUtil.saveString(this, "city", city);
-
+			
 		}
 
 	}

@@ -1,5 +1,9 @@
 package com.example.mycar.utils;
-
+/**
+ * 常量类
+ * @author gao
+ *
+ */
 public class Constants {
 	public static final String[] TABS = { "推荐", "新闻", "导购", "养车", "评测", "政策",
 			"物流" };

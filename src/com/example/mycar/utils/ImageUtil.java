@@ -7,7 +7,11 @@ import java.io.FileOutputStream;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Environment;
-
+/**
+ * 图片操作类
+ * @author gao
+ *
+ */
 public class ImageUtil {
 
 	private static final String IMAGE_PATH = Environment.getExternalStorageDirectory() + "/kache_ford/imageess";

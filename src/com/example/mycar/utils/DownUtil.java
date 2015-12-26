@@ -1,7 +1,11 @@
 package com.example.mycar.utils;
 
 import android.os.Handler;
-
+/**
+ * 下载帮助类
+ * @author gao
+ *
+ */
 public class DownUtil {
 	public static final int TYPE_JSON = 0;
 	public static final int TYPE_IMAGE = 1;

@@ -33,14 +33,22 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
+/**
+ * 咨询界面的新闻tab
+ * 
+ * @author gao
+ * 
+ */
 public class Fragment_News extends Fragment implements OnDownComplete,
 		OnNoHeadListener, OnRefreshListener2<ListView>, OnItemClickListener {
+
 	private View view;
 	private PullToRefreshListView showViews;
 	private int page = 1;
 	private Zixun_ad1 adapter1;
 	private List<ZixunEntity> datas;
 	private List<ZixunEntity> allDatas = new ArrayList<ZixunEntity>();
+
 	private static Fragment_News fn;
 
 	public static Fragment_News getFN() {

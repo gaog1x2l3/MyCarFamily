@@ -7,7 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.mycar.R;
-
+/**
+ * 发现界面
+ * @author gao
+ *
+ */
 public class Fragment_Dis extends Fragment {
 	private static Fragment_Dis fd;
 	private View view;

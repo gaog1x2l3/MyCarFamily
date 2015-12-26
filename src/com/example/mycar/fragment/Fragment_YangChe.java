@@ -31,7 +31,11 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
-
+/**
+ *咨询界面的养车tab 
+ * @author gao
+ *
+ */
 public class Fragment_YangChe extends Fragment implements OnDownComplete, OnNoHeadListener, OnRefreshListener2<ListView>, OnItemClickListener {
 	private View view;
 	private PullToRefreshListView showViews;

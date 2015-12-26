@@ -12,7 +12,11 @@ import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.example.mycar.R;
 import com.example.mycar.utils.SharePrefUtil;
-
+/**
+ * 我的
+ * @author gao
+ *
+ */
 public class Fragment_Mine extends Fragment {
 	private View view;
 	private static Fragment_Mine fm;

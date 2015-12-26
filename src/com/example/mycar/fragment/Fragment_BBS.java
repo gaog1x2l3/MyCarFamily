@@ -10,7 +10,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.mycar.R;
-
+/**
+ * 论坛
+ * @author gao
+ *
+ */
 public class Fragment_BBS extends Fragment {
 	private static Fragment_BBS fd;
 	private TextView textView1,textView2,textView3;

@@ -27,7 +27,11 @@ import android.widget.TextView;
 
 import com.example.mycar.view.PagerSlidingTabStrip.SavedState;
 import com.example.mycar.R;
-
+/**
+ * 自定义SlidingTabStrip
+ * @author gao
+ *
+ */
 public class PagerSlidingTabStrip extends HorizontalScrollView {
 
 	public interface IconTabProvider {

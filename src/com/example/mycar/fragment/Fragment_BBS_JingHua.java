@@ -15,7 +15,11 @@ import android.view.ViewGroup;
 import com.example.mycar.utils.Constants;
 import com.example.mycar.view.PagerSlidingTabStrip;
 import com.example.mycar.R;
-
+/**
+ * 论坛界面的精华
+ * @author gao
+ *
+ */
 public class Fragment_BBS_JingHua extends Fragment {
 	private static Fragment_BBS_JingHua fbj;
 	private PagerSlidingTabStrip mTab;

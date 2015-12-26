@@ -29,7 +29,11 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
-
+/**
+ * 咨询界面的物流tab
+ * @author gao
+ *
+ */
 
 public class Fragment_WuLiu extends Fragment implements OnDownComplete,  OnRefreshListener2<ListView>, OnItemClickListener {
 	private View view;

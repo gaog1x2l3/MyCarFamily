@@ -14,7 +14,11 @@ import android.widget.ImageView;
 import com.example.mycar.utils.DownUtil;
 import com.example.mycar.utils.DownUtil.OnDownComplete;
 import com.example.mycar.utils.ImageUtil;
-
+/**
+ * 自定义ImageView
+ * @author gao
+ *
+ */
 public class MyImageView extends ImageView implements OnDownComplete {
 	private static final String TAG = "MyImageView";
 	public MyImageView(Context context) {
