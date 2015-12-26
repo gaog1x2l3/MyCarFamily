@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -23,5 +23,17 @@
 	 <style name="style_title">
 	     <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/white</item>
+	 </style>
+
+	 <style name="style_rb_btn">
+	     <item name="android:padding">7dp</item>
+	     <item name="android:layout_width">0dp </item>
+	     <item name="android:layout_height">match_parent</item>
+	     <item name="android:layout_weight">1</item>
+	     <item name="android:background">@color/main_rb_background</item>
+	     <item name="android:button">@null</item>
+	     <item name="android:gravity">center</item>
+	     <item name="android:textColor">@color/text_color</item>
+	     <item name="android:textSize">@dimen/main_rb_text_size</item>
 	 </style>
 </resources>

@@ -11,69 +11,36 @@
 
     <RadioGroup
         android:id="@+id/rg_1"
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:background="#F2F0F0"
-        android:orientation="horizontal"
-        >
+        android:gravity="center"
+        android:orientation="horizontal" >
 
         <RadioButton
             android:id="@+id/rb_1"
-            android:padding="7dp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#F2F0F0"
-            android:button="@null"
-            android:gravity="center"
+            style="@style/style_rb_btn"
             android:drawableTop="@drawable/zixun_slc"
-            android:textColor="@color/text_color"
-            android:textSize="12dp"
-            android:text="咨询" />
+            android:text="@string/zixun" />
 
         <RadioButton
             android:id="@+id/rb_2"
-            android:padding="7dp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#F2F0F0"
-            android:button="@null"
-            android:gravity="center"
+            style="@style/style_rb_btn"
             android:drawableTop="@drawable/bbs_slc"
-            android:textColor="@color/text_color"
-             android:textSize="12dp"
-            android:text="论坛" />
+            android:text="@string/bbs" />
 
         <RadioButton
             android:id="@+id/rb_3"
-            android:padding="7dp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#F2F0F0"
-            android:button="@null"
-            android:gravity="center"
+            style="@style/style_rb_btn"
             android:drawableTop="@drawable/dis_slc"
-            android:textColor="@color/text_color"
-             android:textSize="12dp"
-            android:text="发现" />
+            android:text="@string/discover" />
 
         <RadioButton
             android:id="@+id/rb_4"
-            android:padding="7dp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#F2F0F0"
-            android:button="@null"
-            android:gravity="center"
+            style="@style/style_rb_btn"
             android:drawableTop="@drawable/me_slc"
-            android:textColor="@color/text_color"
-             android:textSize="12dp"
-            android:text="我的" />
+            android:text="@string/mine" />
     </RadioGroup>
 
 </RelativeLayout>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content" 
+    android:padding="8dp"
+    >
 
     <com.example.mycar.view.MyImageView
         android:id="@+id/zixun_img_tt"
@@ -19,7 +21,10 @@
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:paddingTop="5dp"
-        android:text="我是大标题哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦" />
+        android:text="我是大标题哦哦"
+        android:textColor="@color/item_title_textcolor"
+        android:textSize="17sp"
+         />
 
     <TextView
         android:id="@+id/zx_Author_tt"
@@ -30,7 +35,10 @@
         android:paddingLeft="5dp"
         android:paddingTop="10dp"
         android:singleLine="true"
-        android:text="作者" />
+        android:text="作者"
+        android:textColor="@color/item_author_textcolor"
+        android:textSize="14sp"
+         />
 
     <com.example.mycar.view.MyImageView
         android:id="@+id/zx_tg_tt"
@@ -40,6 +48,7 @@
         android:layout_below="@id/zx_Title_tt"
         android:paddingTop="10dp"
         android:src="@drawable/wenzhangguanggaotuiguang"
+        android:paddingRight="10dp"
          />
 
 </RelativeLayout>

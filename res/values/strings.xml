@@ -1,5 +1,9 @@
 <resources>
 
     <string name="app_name">MyCarFamily</string>
-
+	<string name="mine">我的</string>
+	<string name="bbs">论坛</string>
+	<string name="discover">发现</string>
+	<string name="zixun">咨询</string>
+	<string name="jump">直接跳过</string>
 </resources>
