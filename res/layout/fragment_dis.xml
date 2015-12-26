@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical" >
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -12,20 +13,18 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
+            android:orientation="vertical" >
 
             <LinearLayout
-                android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="5dp" >
 
                 <ImageView
                     android:id="@+id/car_finder"
@@ -41,202 +40,198 @@
                     android:layout_weight="1"
                     android:src="@drawable/expore_store" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#F5F2F2"/>
+                android:background="#F5F2F2" />
+
             <LinearLayout
                 android:id="@+id/money"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:orientation="horizontal"
                 android:gravity="center_vertical"
-                >
+                android:orientation="horizontal" >
+
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/explore_money"/>
+                    android:layout_weight="1"
+                    android:src="@drawable/explore_money" />
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="wrap_content"
-                    android:text="赚钱指数"/>
+                    android:layout_weight="5"
+                    android:text="赚钱指数" />
 
                 <ImageView
-
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dh_top_forward"/>
-
+                    android:layout_weight="1"
+                    android:src="@drawable/dh_top_forward" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#F5F2F2"/>
+                android:background="#F5F2F2" />
+
             <LinearLayout
                 android:id="@+id/car"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:orientation="horizontal"
                 android:gravity="center_vertical"
-                >
+                android:orientation="horizontal" >
+
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/explore_car"/>
+                    android:layout_weight="1"
+                    android:src="@drawable/explore_car" />
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="wrap_content"
-                    android:text="二手车评估"/>
+                    android:layout_weight="5"
+                    android:text="二手车评估" />
 
                 <ImageView
-
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dh_top_forward"/>
-
+                    android:layout_weight="1"
+                    android:src="@drawable/dh_top_forward" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#F5F2F2"/>
+                android:background="#F5F2F2" />
+
             <LinearLayout
                 android:id="@+id/goods"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:orientation="horizontal"
                 android:gravity="center_vertical"
-                >
+                android:orientation="horizontal" >
+
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/explore_goods"/>
+                    android:layout_weight="1"
+                    android:src="@drawable/explore_goods" />
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="wrap_content"
-                    android:text="最新资源"/>
+                    android:layout_weight="5"
+                    android:text="最新资源" />
 
                 <ImageView
-
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dh_top_forward"/>
-
+                    android:layout_weight="1"
+                    android:src="@drawable/dh_top_forward" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#F5F2F2"/>
+                android:background="#F5F2F2" />
+
             <LinearLayout
                 android:id="@+id/toos"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:orientation="horizontal"
                 android:gravity="center_vertical"
-                >
-                <ImageView
+                android:orientation="horizontal" >
 
+                <ImageView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/exploer_tools"/>
+                    android:layout_weight="1"
+                    android:src="@drawable/exploer_tools" />
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="wrap_content"
-                    android:text="工具大全"/>
+                    android:layout_weight="5"
+                    android:text="工具大全" />
 
                 <ImageView
-
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dh_top_forward"/>
-
+                    android:layout_weight="1"
+                    android:src="@drawable/dh_top_forward" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:background="#F5F2F2"/>
+                android:background="#F5F2F2" />
+
             <LinearLayout
                 android:id="@+id/sale"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:orientation="horizontal"
                 android:gravity="center_vertical"
-                >
-                <ImageView
+                android:orientation="horizontal" >
 
+                <ImageView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/exploer_sale"/>
-                  <TextView
+                    android:layout_weight="1"
+                    android:src="@drawable/exploer_sale" />
+
+                <TextView
                     android:layout_width="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="5"
-                    android:layout_height="wrap_content"
-                    android:text="扫描二维码下载卡车之家APP"/>
+                    android:text="扫描二维码下载卡车之家APP" />
 
                 <ImageView
-
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dh_top_forward"/>
-
+                    android:layout_weight="1"
+                    android:src="@drawable/dh_top_forward" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#F5F2F2"/>
+                android:background="#F5F2F2" />
+
             <LinearLayout
                 android:id="@+id/recommend"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:orientation="horizontal"
                 android:gravity="center_vertical"
-                >
-                <ImageView
+                android:orientation="horizontal" >
 
+                <ImageView
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/explore_recommend"/>
+                    android:layout_weight="1"
+                    android:src="@drawable/explore_recommend" />
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="wrap_content"
-                    android:text="推荐给好友"/>
+                    android:layout_weight="5"
+                    android:text="推荐给好友" />
 
                 <ImageView
-
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dh_top_forward"/>
-
+                    android:layout_weight="1"
+                    android:src="@drawable/dh_top_forward" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:background="#F5F2F2"/>
-
+                android:background="#F5F2F2" />
         </LinearLayout>
-
     </ScrollView>
 
 </LinearLayout>
-                

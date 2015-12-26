@@ -30,6 +30,8 @@ public class DownUtil {
 
 					@Override
 					public void run() {
+						System.out.println(url);
+						System.out.println(result);
 						// TODO Auto-generated method stub
 						onDownComplete.downComplete(url, result);
 					}

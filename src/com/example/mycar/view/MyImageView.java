@@ -93,6 +93,10 @@ public class MyImageView extends ImageView implements OnDownComplete {
 	}
 	//将图片数据放到LruCache,并且存储到扩充卡上。
 	private void setCache(String key, Bitmap value) {
+		if(value==null){
+			System.out.println("=========");
+			return ;
+		}
 		Log.d(TAG, "setCache"+key+":"+value);
 		lruCache.put(key, value);
 		ImageUtil.saveImage(key, value);		
